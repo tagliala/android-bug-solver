@@ -1,11 +1,11 @@
 FactoryGirl.define do
-  factory :issue do
-    description 'Issue description'
+  factory :device do
+    name
+    released_at { Faker::Date.between(2.years.ago, Date.today) }
+  end
 
-    Issue::DEVICES.each do |device|
-      trait device.to_sym do
-        device device
-      end
-    end
+  factory :issue do
+    device
+    description 'Issue description'
   end
 end

@@ -11,6 +11,7 @@
   "repository": "https://github.com/tagliala/android-bug-solver",
   "success_url": "/",
   "scripts": {
+    "postdeploy": "bundle exec rake db:seed"
   },
   "env": {
     "NEW_RELIC_APP_NAME": {

@@ -8,10 +8,10 @@
           br
 
     .form-group
-      = f.label :device, Issue.human_attribute_name(:device)
-      = f.select :device, Issue::DEVICES.map { |v| [Issue.human_attribute_name(:"device_#{v}"), v] }, { }, class: 'form-control', required: true
+      = f.label :device, Device.model_name.human
+      = f.select :device, Device.all.map { |d| [d.name, d.id] }, { }, class: 'form-control', required: true
     .form-group
-      = f.label :device, Issue.human_attribute_name(:description)
+      = f.label :description, Issue.human_attribute_name(:description)
       = f.text_area :description, class: 'form-control', rows: 10, required: true, max: 500
       p.help-block= t('.description_help')
     .form-group

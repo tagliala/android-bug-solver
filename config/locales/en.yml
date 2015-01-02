@@ -22,21 +22,21 @@
 en:
   mongoid:
     attributes:
+      devices:
+        name: Name
+        released_at: Released at
       issue:
         closed_at: Closed at
         closed_by: Closed by
         device: Device
-        device_nexus4: Nexus 4
-        device_nexus5: Nexus 5
-        device_nexus6: Nexus 6
-        device_nexus7: Nexus 7 (Wi-Fi)
-        device_nexus7g: Nexus 7 (Mobile)
-        device_nexus7_2013: Nexus 7 [2013] (Wi-Fi)
-        device_nexus7g_2013: Nexus 7 [2013] (Mobile)
-        device_nexus9: Nexus 9 (Wi-Fi)
-        device_nexus9g: Nexus 9 (LTE)
-        device_nexus10: Nexus 10
         description: Description
+    model:
+      device:
+        one: Device
+        other: Devices
+      issue:
+        one: Issue
+        other: Issues
   hello: "Hello world"
   helpers:
     form:

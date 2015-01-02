@@ -10,33 +10,12 @@ h6 {
   text-transform: uppercase;
 }
 
-.slabtexted .slabtext {
-  display:-moz-inline-box;
-  display:inline-block;
-  white-space:nowrap;
+footer {
+  margin: 10px 0;
 }
 
-.slabtextinactive .slabtext {
-  display:inline;
-  white-space:normal;
-  font-size:1em !important;
-  letter-spacing:inherit !important;
-  word-spacing:inherit !important;
-  *letter-spacing:0 !important;
-  *word-spacing:0 !important;
-}
-
-.slabtextdone .slabtext {
-  display:block;
-}
-
-.slabme {
-  @include opacity(0);
-  transition: opacity .25s ease-in;
-
-  &.slabtextdone {
-    @include opacity(1);
-  }
+.container {
+  max-width: 500px;
 }
 
 .featurette {
@@ -56,12 +35,4 @@ h6 {
 .featurette-amber {
   padding: 20px 0;
   background-color: #FFC107;
-}
-
-.container {
-  max-width: 500px;
-}
-
-footer {
-  margin: 10px 0;
 }

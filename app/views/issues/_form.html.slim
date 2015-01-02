@@ -12,7 +12,7 @@
       = f.select :device, Device.all.map { |d| [d.name, d.id] }, { }, class: 'form-control', required: true
     .form-group
       = f.label :description, Issue.human_attribute_name(:description)
-      = f.text_area :description, class: 'form-control', rows: 10, required: true, max: 500
+      = f.text_area :description, class: 'form-control', rows: 8, required: true, max: 500
       p.help-block= t('.description_help')
     .form-group
       = f.submit t('.submit'), class: 'btn btn-primary pull-right btn-block btn-lg', disable_with: t('helpers.please_wait'), remote: true

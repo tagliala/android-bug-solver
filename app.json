@@ -1,0 +1,35 @@
+{
+  "name": "Android Bug Solver",
+  "description": "The best application to solve any Android bug within seconds",
+  "keywords": [
+    "Ruby 2",
+    "Rails 4",
+    "MongoDB",
+    "Bootstrap"
+  ],
+  "website": "http://android-bug-solver.herokuapp.com/",
+  "repository": "https://github.com/tagliala/android-bug-solver",
+  "success_url": "/",
+  "scripts": {
+  },
+  "env": {
+    "NEW_RELIC_APP_NAME": {
+      "description": "Sets the name of your application as it will appear on the New Relic dashboard.",
+      "value": "Android Bug Solver"
+    },
+    "RAILS_ENV": "production",
+    "RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACTOR": {
+      "description": "Reduces RGenGC's memory consumption",
+      "value": "1.3"
+    },
+    "SECRET_KEY_BASE": {
+      "description": "This gets generated",
+      "generator": "secret"
+    }
+  },
+  "addons": [
+    "mongolab:sandbox",
+    "papertrail",
+    "newrelic:stark"
+  ]
+}

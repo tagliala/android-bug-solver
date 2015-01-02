@@ -1,0 +1,18 @@
+.container
+  = form_for @issue do |f|
+    - if f.object.errors.full_messages.any?
+      .alert.alert-danger.fade.in
+        h4= t('helpers.form.error')
+        - for msg in f.object.errors.full_messages
+          = msg
+          br
+
+    .form-group
+      = f.label :device, Issue.human_attribute_name(:device)
+      = f.select :device, Issue::DEVICES.map { |v| [Issue.human_attribute_name(:"device_#{v}"), v] }, { }, class: 'form-control', required: true
+    .form-group
+      = f.label :device, Issue.human_attribute_name(:description)
+      = f.text_area :description, class: 'form-control', rows: 10, required: true, max: 500
+      p.help-block= t('.description_help')
+    .form-group
+      = f.submit t('.submit'), class: 'btn btn-primary pull-right btn-block btn-lg', disable_with: t('helpers.please_wait'), remote: true

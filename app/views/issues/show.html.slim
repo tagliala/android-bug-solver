@@ -1,0 +1,38 @@
+- title t('.title', issue: @issue)
+.featurette.featurette-indigo
+  .container
+    h1= yield :title
+.featurette
+  .container
+    h2= t('.details')
+    p
+      b
+        = Issue.human_attribute_name(:device)
+        ':
+      = Issue.human_attribute_name(:"device_#{@issue.device}")
+    p
+      b= Issue.human_attribute_name(:description)
+      p= simple_format(@issue.description)
+    h2= t('.solution_found')
+    p
+      b
+        = Issue.human_attribute_name(:closed_by)
+        ':
+      = @issue.closed_by
+    p
+      b
+        = Issue.human_attribute_name(:closed_at)
+        ':
+      = l(@issue.closed_at, format: :long)
+    - if @issue.obsolete?
+      p.lead
+        span.label.label-default= t('.obsolete_html')
+      p
+        em.text-muted= @issue.reason
+    - else
+      p.lead
+        span.label.label-warning= t('.restricted_html')
+      p= @issue.reason
+    hr
+    = link_to t('.submit_new_issue'), new_issue_path
+

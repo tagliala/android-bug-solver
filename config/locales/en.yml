@@ -1,0 +1,64 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  mongoid:
+    attributes:
+      issue:
+        closed_at: Closed at
+        closed_by: Closed by
+        device: Device
+        device_nexus4: Nexus 4
+        device_nexus5: Nexus 5
+        device_nexus6: Nexus 6
+        device_nexus7: Nexus 7 (Wi-Fi)
+        device_nexus7g: Nexus 7 (Mobile)
+        device_nexus7_2013: Nexus 7 [2013] (Wi-Fi)
+        device_nexus7g_2013: Nexus 7 [2013] (Mobile)
+        device_nexus9: Nexus 9 (Wi-Fi)
+        device_nexus9g: Nexus 9 (LTE)
+        device_nexus10: Nexus 10
+        description: Description
+  hello: "Hello world"
+  helpers:
+    form:
+      error: Please fix the following errors
+    please_wait: Please wait...
+  shared:
+    navbar:
+      toggle_navigation: Toggle Navigation
+  issues:
+    form:
+      description_help: "Maximum 500 characters. There is no need to give a lot of details, this tool is very powerful."
+      submit: Submit
+    new:
+      title: New issue
+    show:
+      title: "Issue #%{issue}"
+      details: Details
+      solution_found: Solution Found!
+      obsolete_html: "<b>Status:</b> Obsolete"
+      restricted_html: "<b>Status:</b> Restricted"
+      submit_new_issue: Submit a new issue
+  welcome:
+    index:
+      title: Android Bug Solver
+      submit_your_issue: Submit your issue

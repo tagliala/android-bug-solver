@@ -1,0 +1,55 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+.slabtexted .slabtext {
+  display:-moz-inline-box;
+  display:inline-block;
+  white-space:nowrap;
+}
+
+.slabtextinactive .slabtext {
+  display:inline;
+  white-space:normal;
+  font-size:1em !important;
+  letter-spacing:inherit !important;
+  word-spacing:inherit !important;
+  *letter-spacing:0 !important;
+  *word-spacing:0 !important;
+}
+
+.slabtextdone .slabtext {
+  display:block;
+}
+
+.featurette {
+  padding: 20px 0;
+}
+
+.featurette-indigo {
+  color: white;
+  background-color: #3F51B5;
+}
+
+.featurette-green {
+  color: white;
+  background-color: #4CAF50;
+}
+
+.featurette-amber {
+  padding: 20px 0;
+  background-color: #FFC107;
+}
+
+.container {
+  max-width: 500px;
+}
+
+footer {
+  margin: 10px 0;
+}

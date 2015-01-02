@@ -1,0 +1,11 @@
+/* Override Bootstrap variables here
+ * Example: $brand-primary: navy;
+ */
+
+$font-family-sans-serif: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-family: 'Oswald';
+$headings-font-weight: 400;
+$brand-primary: #E91E63;
+
+/* Do not edit below this line */
+@import "twbs/bootstrap/variables";

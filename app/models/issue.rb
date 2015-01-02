@@ -2,7 +2,7 @@ class Issue
   include Mongoid::Document
   include Mongoid::Token
 
-  SCAPEGOATS = ['Qualcomm', 'LGE', 'Motorola', 'Asus', 'Verizon', 'Samsung', 'HTC', 'Corning']
+  SCAPEGOATS = ['Qualcomm', 'LGE', 'Motorola', 'Asus', 'Verizon', 'Samsung', 'HTC', 'Corning', 'ARM']
   DEVICES = %w(nexus4 nexus5 nexus6 nexus7 nexus7g nexus7_2013 nexus7g_2013 nexus9 nexus9g nexus10)
   ACTUAL_DEVICES = %w(nexus6 nexus9)
 

@@ -1,3 +1,6 @@
+@import "twbs-variables";
+@import "twbs/bootstrap/mixins";
+
 h1,
 h2,
 h3,
@@ -25,6 +28,15 @@ h6 {
 
 .slabtextdone .slabtext {
   display:block;
+}
+
+.slabme {
+  @include opacity(0);
+  transition: opacity .25s ease-in;
+
+  &.slabtextdone {
+    @include opacity(1);
+  }
 }
 
 .featurette {

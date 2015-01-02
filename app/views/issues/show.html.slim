@@ -6,24 +6,22 @@
   .container
     h2= t('.details')
     p
-      b
-        = Device.model_name.human
-        ' :
+      b> #{Issue.human_attribute_name(:stars)}:
+      = @issue.stars
+    p
+      b> #{Device.model_name.human}:
       = @issue.device.name
     p
       b= Issue.human_attribute_name(:description)
       p= simple_format(@issue.description)
+    hr
     h2= t('.solution_found')
     blockquote
       p
-        b
-          = Issue.human_attribute_name(:closed_by)
-          ' :
+        b> #{Issue.human_attribute_name(:closed_by)}:
         = @issue.closed_by
       p
-        b
-          = Issue.human_attribute_name(:closed_at)
-          ' :
+        b> #{Issue.human_attribute_name(:closed_at)}:
         = l(@issue.closed_at, format: :long)
       - if @issue.obsolete?
         p

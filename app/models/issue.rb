@@ -11,6 +11,7 @@ class Issue
   field :device
   field :description
 
+  field :stars, type: Integer
   field :closed_at, type: DateTime
   field :closed_by
   field :reason
@@ -19,6 +20,7 @@ class Issue
   validates :description, presence: true, length: { maximum: 500 }
 
   before_save do
+    self.stars = rand(100..2000)
     self.closed_by = "#{('a'..'z').to_a.sample}...@google.com"
     self.closed_at = rand(1.year.from_now..3.years.from_now)
     self.reason = give_me_a_reason

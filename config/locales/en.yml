@@ -30,6 +30,7 @@ en:
         closed_by: Closed by
         device: Device
         description: Description
+        stars: Stars
     model:
       device:
         one: Device

@@ -61,4 +61,5 @@ en:
   welcome:
     index:
       title: Android Bug Solver
+      description: Solves any android bug within seconds
       submit_your_issue: Submit your issue

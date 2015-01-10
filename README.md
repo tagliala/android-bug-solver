@@ -28,6 +28,7 @@ This application solves any Android bug within seconds
 * https://code.google.com/p/android/issues/detail?id=1106
 * https://code.google.com/p/android/issues/detail?id=35139
 * https://code.google.com/p/android/issues/detail?id=41626
+* https://code.google.com/p/android/issues/detail?id=38282
 
 
 ## Disclaimer

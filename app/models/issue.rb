@@ -36,10 +36,13 @@ class Issue
 
   private
   def give_me_a_reason
+    # TODO: fix this. Provide "status" column
     if obsolete?
-      self.reason = '(No comment was entered for this change.)'
-    else
+      '(No comment was entered for this change.)'
+    elsif rand(11) <= 8
       "looks like internal issue http://b/#{rand(10000000..99999999)} which seems to be blocked on #{device.scapegoats.sample}?"
+    else
+      'contact customer support.'
     end
   end
 end

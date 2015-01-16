@@ -59,6 +59,7 @@ en:
       obsolete_html: "<b>Status:</b> Obsolete"
       restricted_html: "<b>Status:</b> Restricted"
       submit_new_issue: Submit a new issue
+      wrong_forum_html: "<b>Status:</b> WrongForum"
   welcome:
     index:
       title: Android Bug Solver

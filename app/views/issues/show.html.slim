@@ -28,6 +28,10 @@
           span.label.label-default= t('.obsolete_html')
         p
           em.text-muted= @issue.reason
+      - elsif @issue.reason == 'contact customer support.'
+        p.lead
+          span.label.label-default= t('.wrong_forum_html')
+        p= simple_format(@issue.reason)
       - else
         p.lead
           span.label.label-warning= t('.restricted_html')

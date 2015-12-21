@@ -18,6 +18,6 @@ class IssuesController < ApplicationController
 
   protected
   def set_issue
-    @issue = Issue.find params[:id]
+    @issue = Issue.find_by_token params[:id]
   end
 end

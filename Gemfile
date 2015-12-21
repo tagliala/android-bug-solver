@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.2.0'
-gem 'rails', '4.2.0'
+ruby '2.2.4'
+gem 'rails', '4.2.5'
 
 # Servers
 gem 'puma'
@@ -34,7 +34,7 @@ gem 'slim-rails'
 
 # Assets
 gem 'autoprefixer-rails'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.1.1'
 gem 'i18n-js'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
@@ -52,7 +52,6 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-rails'
-  gem 'web-console'
 end
 
 group :development do
@@ -63,12 +62,13 @@ group :development do
   gem 'quiet_assets'
   gem 'spring'
   gem 'spring-commands-rspec'
+  gem 'web-console'
 end
 
 group :test do
   gem 'capybara'
   gem 'coveralls', require: false
-  gem 'database_cleaner', '1.3.0'
+  gem 'database_cleaner'
   gem 'email_spec'
   gem 'mongoid-rspec'
   gem 'rspec'

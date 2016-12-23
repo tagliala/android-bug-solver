@@ -5,6 +5,14 @@
 $font-family-sans-serif: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $headings-font-family: 'Oswald';
 $headings-font-weight: 400;
+$font-size-base:  16px;
+$font-size-small: floor($font-size-base * .875); // 14px
+$font-size-h1:    floor($font-size-base * 2.5);  // 40px
+$font-size-h2:    floor($font-size-base * 2);    // 32px
+$font-size-h3:    floor($font-size-base * 1.75); // 28px
+$font-size-h4:    floor($font-size-base * 1.5);  // 24px
+$font-size-h5:    floor($font-size-base * 1.25); // 20px
+$font-size-h6:    $font-size-base;
 $brand-primary: #E91E63;
 
 /* Do not edit below this line */

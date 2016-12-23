@@ -9,7 +9,7 @@
 
     .form-group
       = f.label :device, Device.model_name.human
-      = f.select :device, Device.all.map { |d| [d.name, d.id] }, { }, class: 'form-control', required: true
+      = f.select :device, @devices.map { |d| [d.name, d.id] }, { }, class: 'form-control', required: true
     .form-group
       = f.label :description, Issue.human_attribute_name(:description)
       = f.text_area :description, class: 'form-control', rows: 8, required: true, max: 500

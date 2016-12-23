@@ -2,6 +2,7 @@ class IssuesController < ApplicationController
   before_action :set_issue, only: [:show]
 
   def new
+    @devices = Device.order(release_date: :desc)
     @issue = Issue.new
   end
 

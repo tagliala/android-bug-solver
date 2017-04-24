@@ -7,32 +7,32 @@ This application solves any Android bug within seconds
 
 ## In loving memory of:
 
-* https://code.google.com/p/android/issues/detail?id=82
-* https://code.google.com/p/android/issues/detail?id=1041
-* https://code.google.com/p/android/issues/detail?id=1089
-* https://code.google.com/p/android/issues/detail?id=1106
-* https://code.google.com/p/android/issues/detail?id=1211
-* https://code.google.com/p/android/issues/detail?id=1257
-* https://code.google.com/p/android/issues/detail?id=1284
-* https://code.google.com/p/android/issues/detail?id=1285
-* https://code.google.com/p/android/issues/detail?id=1386
-* https://code.google.com/p/android/issues/detail?id=1698
-* https://code.google.com/p/android/issues/detail?id=1730
-* https://code.google.com/p/android/issues/detail?id=2117
-* https://code.google.com/p/android/issues/detail?id=2207
-* https://code.google.com/p/android/issues/detail?id=2305
-* https://code.google.com/p/android/issues/detail?id=2318
-* https://code.google.com/p/android/issues/detail?id=2361
-* https://code.google.com/p/android/issues/detail?id=2412
-* https://code.google.com/p/android/issues/detail?id=2845
-* https://code.google.com/p/android/issues/detail?id=35139
-* https://code.google.com/p/android/issues/detail?id=38282
-* https://code.google.com/p/android/issues/detail?id=40188
-* https://code.google.com/p/android/issues/detail?id=41626
-* https://code.google.com/p/android/issues/detail?id=62373
-* https://code.google.com/p/android/issues/detail?id=63056
-* https://code.google.com/p/android/issues/detail?id=63793
-* https://code.google.com/p/android/issues/detail?id=67113
+* https://issuetracker.google.com/issues/36904180
+* https://issuetracker.google.com/issues/36905737
+* https://issuetracker.google.com/issues/36905785
+* https://issuetracker.google.com/issues/36905802
+* https://issuetracker.google.com/issues/36905906
+* https://issuetracker.google.com/issues/36905952
+* https://issuetracker.google.com/issues/36905979
+* https://issuetracker.google.com/issues/36905980
+* https://issuetracker.google.com/issues/36906131
+* https://issuetracker.google.com/issues/36906541
+* https://issuetracker.google.com/issues/36906572
+* https://issuetracker.google.com/issues/36907207
+* https://issuetracker.google.com/issues/36907297
+* https://issuetracker.google.com/issues/36907395
+* https://issuetracker.google.com/issues/36907408
+* https://issuetracker.google.com/issues/36907451
+* https://issuetracker.google.com/issues/36907502
+* https://issuetracker.google.com/issues/36907983
+* https://issuetracker.google.com/issues/36951508
+* https://issuetracker.google.com/issues/36956498
+* https://issuetracker.google.com/issues/36958974
+* https://issuetracker.google.com/issues/36962629
+* https://issuetracker.google.com/issues/36983733
+* https://issuetracker.google.com/issues/36985161
+* https://issuetracker.google.com/issues/36986292
+* https://issuetracker.google.com/issues/36991615
 * https://issuetracker.google.com/issues/36991615
 
 

@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.3.3'
-gem 'rails', '4.2.7.1'
+ruby '2.4.1'
+gem 'rails', '4.2.8'
 
 # Servers
 gem 'puma'
@@ -34,11 +34,11 @@ gem 'slim-rails'
 
 # Assets
 gem 'autoprefixer-rails'
-gem 'coffee-rails', '~> 4.1.1'
+gem 'coffee-rails', '~> 4.2'
 gem 'i18n-js'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails'
 gem 'slim_assets'
 gem 'turbolinks'
 gem 'twbs_sass_rails'

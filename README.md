@@ -33,7 +33,6 @@ This application solves any Android bug within seconds
 * https://issuetracker.google.com/issues/36985161
 * https://issuetracker.google.com/issues/36986292
 * https://issuetracker.google.com/issues/36991615
-* https://issuetracker.google.com/issues/36991615
 
 
 ## Disclaimer

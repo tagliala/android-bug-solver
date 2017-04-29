@@ -1,5 +1,6 @@
 class Issue
   include Mongoid::Document
+  include Mongoid::Timestamps
   include Mongoid::Token
 
   SCAPEGOATS = ['Qualcomm', 'LGE', 'Motorola', 'Asus', 'Verizon', 'Samsung', 'HTC', 'Corning', 'ARM']

@@ -24,9 +24,9 @@ en:
     attributes:
       devices:
         name: Name
-        released_at: Released at
+        released_on: Released on
       issue:
-        closed_at: Closed at
+        closed_on: Closed on
         closed_by: Closed by
         device: Device
         description: Description

@@ -21,8 +21,8 @@
         b> #{Issue.human_attribute_name(:closed_by)}:
         = @issue.closed_by
       p
-        b> #{Issue.human_attribute_name(:closed_at)}:
-        = l(@issue.closed_at, format: :long)
+        b> #{Issue.human_attribute_name(:closed_on)}:
+        = l(@issue.closed_on, format: :long)
       - if @issue.obsolete?
         p
           span.label.label-default= t('.obsolete_html')

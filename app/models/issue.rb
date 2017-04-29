@@ -13,7 +13,7 @@ class Issue
   field :description
 
   field :stars, type: Integer
-  field :closed_at, type: DateTime
+  field :closed_on, type: Date
   field :closed_by
   field :reason
 
@@ -23,12 +23,12 @@ class Issue
   before_save do
     self.stars = rand(100..2000)
     self.closed_by = "#{('a'..'z').to_a.sample}...@google.com"
-    self.closed_at = rand(1.year.from_now..3.years.from_now)
+    self.closed_on = rand(1.year.from_now..3.years.from_now)
     self.reason = give_me_a_reason
   end
 
   def obsolete?
-    device.obsolete_at < closed_at
+    device.obsolete_on < closed_on
   end
 
   def to_s

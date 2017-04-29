@@ -56,7 +56,7 @@ en:
       title: "Issue #%{issue}"
       details: Details
       solution_found: Solution Found!
-      obsolete_html: "<b>Status:</b> Obsolete"
+      obsolete_html: "<b>Status:</b> Won't Fix (Obsolete)"
       restricted_html: "<b>Status:</b> Restricted"
       submit_new_issue: Submit a new issue
       wrong_forum_html: "<b>Status:</b> WrongForum"

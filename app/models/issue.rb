@@ -22,7 +22,7 @@ class Issue
 
   before_save do
     self.stars = rand(100..2000)
-    self.closed_by = "#{('a'..'z').to_a.sample}...@google.com"
+    self.closed_by = "#{('a'..'z').to_a.shuffle.first(2).join}...@google.com"
     self.closed_on = rand(1.year.from_now..3.years.from_now)
     self.reason = give_me_a_reason
   end
